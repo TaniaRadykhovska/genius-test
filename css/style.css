@@ -59,6 +59,9 @@
 }
 
 /* Base */
+* {
+  box-sizing: border-box;
+}
 body {
   color: var(--color-primery-dark);
   font-family: 'Poppins', sans-serif;
@@ -79,8 +82,8 @@ ul {
 .button {
   color: var(--color-primery-light);
   font-weight: 600;
-  background-color: var(--color-brand);
-  border: 2px solid var(--color-brand);
+  background-color: var(--color-brand-light);
+  border: 2px solid var(--color-brand-light);
   border-radius: 8px;
   cursor: pointer;
 }
@@ -156,10 +159,12 @@ ul {
 
 /* Footer */
 .address-link {
+  color: var(--color-primery-light);
   font-size: 16px;
   font-weight: 300;
   text-decoration: none;
 }
 .address-copyright {
   font-size: 14px;
+  color: #A18268;
 }
